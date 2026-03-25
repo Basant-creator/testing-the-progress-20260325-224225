@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Test - Visualize Your Progress, Perfect Your UI.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Progress Test</a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#progress-demo">Demo</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Open navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1 class="hero-headline">Visualize Your Progress, Perfect Your UI.</h1>
+                <p class="hero-tagline">Seamlessly Test & Optimize Your Progress Bar Designs for Any Application.</p>
+                <div class="cta-buttons">
+                    <a href="#progress-demo" class="btn btn-primary">Try the Demo Now</a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section section-padding bg-subtle">
+            <div class="container">
+                <h2 class="section-title">Why Choose Progress Test?</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-chart-line feature-icon"></i>
+                        <h3>Real-time Visualization</h3>
+                        <p>See your progress bars animate and update in real-time, ensuring smooth user experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-mobile-alt feature-icon"></i>
+                        <h3>Responsive Testing</h3>
+                        <p>Evaluate how your progress indicators perform across various devices and screen sizes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-palette feature-icon"></i>
+                        <h3>Customizable Styles</h3>
+                        <p>Easily tweak colors, shapes, and animations to match your brand's unique aesthetic.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-code feature-icon"></i>
+                        <h3>Code Snippets</h3>
+                        <p>Generate clean, optimized code for your tested progress bars, ready for implementation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="progress-demo" class="demo-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Interactive Progress Bar Demo</h2>
+                <p class="section-description">Experiment with different values and observe the progress bar in action.</p>
+                <div class="progress-container">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <span class="progress-label">50%</span>
+                    </div>
+                </div>
+                <div class="demo-controls">
+                    <button class="btn btn-primary" data-action="increase">Increase (+10)</button>
+                    <button class="btn btn-secondary" data-action="decrease">Decrease (-10)</button>
+                    <button class="btn btn-secondary" data-action="reset">Reset</button>
+                    <input type="range" min="0" max="100" value="50" class="progress-slider" aria-label="Set progress value">
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section section-padding bg-subtle">
+            <div class="container">
+                <h2 class="section-title">What Our Users Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"Progress Test saved us countless hours in UI debugging. The responsive testing is invaluable!"</p>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">Jane Doe</span>
+                            <span class="reviewer-title">UI/UX Designer at TechCorp</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"The ability to customize and see changes instantly drastically improved our development workflow."</p>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">John Smith</span>
+                            <span class="reviewer-title">Lead Developer, Innovate Labs</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"A must-have tool for any front-end team serious about user experience. Highly recommend!"</p>
+                        <div class="reviewer-info">
+                            <span class="reviewer-name">Emily White</span>
+                            <span class="reviewer-title">Product Manager, Global Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta-bottom" class="cta-bottom-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Ready to Enhance Your UI?</h2>
+                <p class="section-description">Start perfecting your progress bars today with Progress Test.</p>
+                <a href="#hero" class="btn btn-primary">Get Started Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p class="logo">Progress Test</p>
+                    <p class="tagline">Visualize Your Progress, Perfect Your UI.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#progress-demo">Demo</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@progresstest.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Progress Test. All rights reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
